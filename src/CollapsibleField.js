@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
   deepEquals,
   getDefaultFormState,
-} from "react-jsonschema-form/lib/utils";
+} from "@rjsf/core/lib/utils";
 import PropTypes from "prop-types";
 
 class CollapseMenuAction extends Component {
